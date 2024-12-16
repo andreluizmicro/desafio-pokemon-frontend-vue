@@ -1,0 +1,80 @@
+.header {
+    margin: auto;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.section {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.card {
+    color: #000;
+    border: 1px solid #bfb7b7;
+    padding: 10px;
+    margin: 25px;
+    height: 120px;
+    width: 20%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+.btn-details {
+    padding: 10px;
+    background-color:#45c4ff;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.btn-details:hover {
+    cursor: pointer;
+    background-color: #45c4cc;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.info-list {
+    margin: auto;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.link-page {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #FFF;
+    cursor: pointer;
+    background-color: #45c4cc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+.pokemon-details {
+    height: 200px;
+    text-align: center;
+}

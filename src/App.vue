@@ -1,8 +1,8 @@
 <script setup>
-import HomeView from './views/HomeView.vue';
 
 </script>
 
 <template>
-  <HomeView/>
+  <div class="header">Pokemons</div>
+  <RouterView/>
 </template>
